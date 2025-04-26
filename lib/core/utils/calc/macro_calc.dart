@@ -8,8 +8,8 @@ class MacroCalc {
   static const _fatKcalPerGram = 9.0;
   static const _proteinKcalPerGram = 4.0;
 
-  static const _defaultCarbsPercentageGoal = 0.6;
-  static const _defaultFatsPercentageGoal = 0.25;
+  static const _defaultCarbsPercentageGoal = 0.5;
+  static const _defaultFatsPercentageGoal = 0.35;
   static const _defaultProteinsPercentageGoal = 0.15;
 
   /// Calculate the total carbs goal based on the total calorie goal

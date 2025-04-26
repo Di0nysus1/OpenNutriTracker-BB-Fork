@@ -35,7 +35,7 @@ class _CalculationsDialogState extends State<CalculationsDialog> {
   late TextEditingController _fatGramController;
 
   // Base kcal value - will be used to calculate macro grams
-  double _baseKcal = 2000; // Default value
+  double _baseKcal = 0; // Default value
 
   // Macros percentages
   double _carbsPctSelection = 50; // Default 50%
