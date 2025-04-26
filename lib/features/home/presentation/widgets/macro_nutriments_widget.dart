@@ -53,7 +53,7 @@ class _MacroNutrientsViewState extends State<MacroNutrientsView> {
                             Theme.of(context).colorScheme.onSurface),
                   ),
                   Text(
-                    S.of(context).carbsLabel,
+                    "Carbs",
                     style: Theme.of(context).textTheme.bodyMedium?.copyWith(
                         color:
                             Theme.of(context).colorScheme.onSurface),
