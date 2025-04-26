@@ -351,23 +351,7 @@ class _CalculationsDialogState extends State<CalculationsDialog> {
                 ),
               ),
             ),
-            const SizedBox(width: 8),
-            Expanded(
-              flex: 1,
-              child: TextFormField(
-                controller: gramController,
-                decoration: const InputDecoration(
-                  border: OutlineInputBorder(),
-                  contentPadding: EdgeInsets.symmetric(horizontal: 8, vertical: 8),
-                  suffixText: 'g',
-                ),
-                keyboardType: TextInputType.number,
-                inputFormatters: [
-                  FilteringTextInputFormatter.digitsOnly,
-                ],
-                onChanged: onGramChanged,
-              ),
-            ),
+            const SizedBox(width: 8)
           ],
         ),
       ],
