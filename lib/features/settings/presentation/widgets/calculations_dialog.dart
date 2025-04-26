@@ -32,8 +32,8 @@ class _CalculationsDialogState extends State<CalculationsDialog> {
   static const int _kcalDivisions = 200;
   double _kcalAdjustmentSelection = 0;
 
-  static const double _defaultCarbsPctSelection = 0.6;
-  static const double _defaultFatPctSelection = 0.25;
+  static const double _defaultCarbsPctSelection = 0.5;
+  static const double _defaultFatPctSelection = 0.35;
   static const double _defaultProteinPctSelection = 0.15;
 
   // Macros percentages

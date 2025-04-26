@@ -42,7 +42,7 @@ class _DashboardWidgetState extends State<DashboardWidget> {
       kcalLeftLabel = widget.totalKcalDaily;
       gaugeValue = 0;
     } else if (widget.totalKcalLeft < 0) {
-      kcalLeftLabel = 0;
+      kcalLeftLabel = widget.totalKcalLeft * -1;
       gaugeValue = 1;
     } else {
       kcalLeftLabel = widget.totalKcalLeft;
@@ -107,7 +107,7 @@ class _DashboardWidgetState extends State<DashboardWidget> {
                                         Theme.of(context).colorScheme.onSurface,
                                     letterSpacing: -1)),
                         Text(
-                          S.of(context).kcalLeftLabel,
+                            (widget.totalKcalLeft < 0) ? S.of(context).kcalToMuchLabel : S.of(context).kcalLeftLabel,
                           style: Theme.of(context)
                               .textTheme
                               .titleMedium
